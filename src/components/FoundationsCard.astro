@@ -1,12 +1,21 @@
 ---
+export interface Props {
+  id: string;
+  slug: string;
+  data: {
+    title: string;
+    description: string;
+  };
+}
+
+const { data, slug } = Astro.props;
+const { title, description } = data;
 ---
 
 <details>
-  <summary>{##TITLE##}</summary>
-  <p>{##DESCRIPTION##}</p>
-  <a href={`/foundations/${##SLUG##}`}>
-    Find out how we put this in practice
-  </a>
+  <summary>{title}</summary>
+  <p>{description}</p>
+  <a href={`/foundations/${slug}`}> Find out how we put this in practice </a>
 </details>
 
 <style>

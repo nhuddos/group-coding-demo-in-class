@@ -14,7 +14,13 @@ const foundations = await getCollection("foundations");
     </p>
   </header>
   <ul>
-    <li>##FOUNDATION##</li>
+    {
+      foundations.map((foundation) => (
+        <li>
+          <FoundationsCard {...foundation} />
+        </li>
+      ))
+    }
   </ul>
 </section>
 
