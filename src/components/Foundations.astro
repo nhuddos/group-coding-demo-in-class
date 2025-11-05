@@ -17,7 +17,7 @@ const foundations = await getCollection("foundations");
     {
       foundations.map((foundation) => (
         <li>
-          <FoundationsCard {...foundation} />
+          <FoundationsCard foundation={foundation} />
         </li>
       ))
     }

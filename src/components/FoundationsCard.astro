@@ -1,21 +1,14 @@
 ---
-export interface Props {
-  id: string;
-  slug: string;
-  data: {
-    title: string;
-    description: string;
-  };
-}
-
-const { data, slug } = Astro.props;
-const { title, description } = data;
+const { foundation } = Astro.props;
+const { title, description } = foundation.data;
 ---
 
 <details>
   <summary>{title}</summary>
   <p>{description}</p>
-  <a href={`/foundations/${slug}`}> Find out how we put this in practice </a>
+  <a href={`/foundations/${foundation.id}`}>
+    Find out how we put this in practice
+  </a>
 </details>
 
 <style>
