@@ -1,5 +1,8 @@
 ---
+import FoundationsCard from "./FoundationsCard.astro";
 
+import { getCollection } from "astro:content";
+const foundations = await getCollection("foundations");
 ---
 
 <section class="container" id="foundations">
