@@ -1,0 +1,19 @@
+{
+  "name": "cck-site",
+  "type": "module",
+  "version": "0.0.1",
+  "scripts": {
+    "dev": "astro dev --host",
+    "start": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "astro": "astro"
+  },
+  "dependencies": {
+    "@fontsource-variable/space-grotesk": "^5.0.19",
+    "astro": "^5.15.1"
+  },
+  "devDependencies": {
+    "scrollyfills": "^1.0.2"
+  }
+}
