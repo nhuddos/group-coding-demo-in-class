@@ -1,6 +1,7 @@
 ---
 title: Experimentation and Playfulness
 description: Creative coding is all about pushing boundaries and trying new things without fear of failure. Community members are encouraged to experiment, play, and explore new ideas. This approach fosters innovation, where artists, designers, and developers create unique, unconventional digital works.
+id: "experiment"
 ---
 
 ## Event: The Creative Code Jam

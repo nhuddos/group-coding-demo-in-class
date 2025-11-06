@@ -1,6 +1,7 @@
 ---
 title: Learning and Skill Development
 description: Many creative coders are self-taught or come from diverse backgrounds. The community promotes continuous learning, with members creating tutorials, organizing workshops, and offering mentorship. This educational focus helps both newcomers and experienced coders deepen their skills in coding and digital art techniques.
+id: "learning"
 ---
 
 ## Workshop Series: From Code to Canvas

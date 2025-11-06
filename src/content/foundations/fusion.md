@@ -1,6 +1,7 @@
 ---
 title: Art and Technology Fusion
 description: Creative coding communities merge art and technology, often blurring the line between the two. These communities embrace coding as a medium for artistic expression, where programming languages become tools for creating visual art, music, interactive experiences, and digital installations.
+id: "fusion"
 ---
 
 ## Event: Digital Art Showcase and Talk Series
